@@ -1,0 +1,21 @@
+{
+    "run_name": "name_of_run",
+    "desc": "Description of the run",
+    "device": "cuda",
+    "base_model_name": "bert-base-uncased",
+    "checkpoint_names": {
+        "mnli": "JeremiahZ/bert-base-uncased-mnli",
+        "qqp": "textattack/bert-base-uncased-QQP",
+        "qnli": "textattack/bert-base-uncased-QNLI",
+        "sst2": "textattack/bert-base-uncased-SST-2",
+        "stsb": "textattack/bert-base-uncased-STS-B",
+        "mrpc": "textattack/bert-base-uncased-MRPC",
+        "rte": "textattack/bert-base-uncased-RTE"
+    },
+    "use_saved": false,
+    "use_universal": true,
+    "use_mask": true, 
+    "num_at_once": 2,
+    "seed": 0,
+    "num_samples": 128
+}
